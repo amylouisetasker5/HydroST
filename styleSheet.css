@@ -1,0 +1,164 @@
+﻿body, html {
+    height: 100%;
+    }
+
+/* The hero image */
+.image-banner {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  
+}
+.wrapper {
+    position:absolute;
+    width:780px;
+    height:650px;
+    padding-top:200px;
+    margin-left:-390px;
+    left:50%;
+    top:50%;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+
+}
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.banner {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button0 {
+	background-color: #CCFFCC
+}
+
+.button1 {
+	background-color: #99FF99
+}
+
+.button2 {
+	background-color: #66FF66
+}
+.button3 {
+background-color:#33CC33
+}
+.button4 {
+background-color:#009933
+}
+.button5 {
+	background-color: #FFCC66
+}
+.button6 {
+	background-color: #FFCC00
+}
+.button7 {
+	background-color: #FF9900
+}
+.button8 {
+	background-color: #FE052B
+}
+.button9 {
+	background-color: #E20123
+}
+.button10 {
+	background-color: #A3011A
+}
+.symptom {
+	width: 20%;
+  	height: auto;
+	display: inline-block;
+	margin: 4px 2px;
+	padding: 10px 10px 10px 10px;
+}
+.icon {
+	width: 100%;
+  	height: auto;
+	display: inline-block;
+	margin: 4px 2px;
+	padding: 10px 10px 10px 10px;
+	max-width:700px;
+
+}
+
+        .tabBlock
+        {
+            background-color:#57574f;
+            border:solid 0px #FFA54F;
+            border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+            max-width:200px;
+            width:100%;
+            overflow:hidden;
+            display:block;
+        }
+        .clock
+        {
+            vertical-align:middle;
+            font-family:Orbitron;
+            font-size:40px;
+            font-weight:normal;
+            color:#FFF;
+            padding:0 10px;
+        }
+        .clocklg 
+        {
+            vertical-align:middle; 
+            font-family:Orbitron;
+            font-size:20px;
+            font-weight:normal;
+            color:#FFF;
+        }
