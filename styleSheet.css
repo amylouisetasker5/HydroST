@@ -136,7 +136,9 @@ background-color:#009933
 }
 .Column-1 {
 	float:left;
+	flex:45%;
 }
 .Column-2 {
 	float: right;
+	flex:45%;
 }
